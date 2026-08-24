@@ -5,8 +5,8 @@ import mysql from "mysql2/promise";
 // Replace these with your actual MySQL credentials
 const dbConfig = {
   host: "localhost",
-  user: "root", // MySQL username
-  password: "123", // MySQL password
+  user: "the-mole", // MySQL username
+  password: "masterkey", // MySQL password
   // database will be specified later
 };
 
@@ -188,7 +188,7 @@ const insertDataQueries = [
   VALUES
   ('admin', 'Emily', 'Blossom', 'emily.blossom@beautywellness.com', 'hashed_password1', "123-456-7890"),
   ('customer', 'Sophia', 'Grace', 'sophia.grace@example.com', 'hashed_password2', "123-456-7890"),
-  ('admin', 'Lucas', 'A', 'lucas@1.se', '$2b$10$18wHqr3Wqp91iaAbUIIxPuuMFZxku4.IYuWU0z06K9TjGMthMbvh2', "123-456-7890"),
+  ('admin', 'Lucas', 'A', 'lucas@1.se', '$2y$10$UsERLt26PF3iD9JV0HDJkeltgPGktfyGB0TVDjp25J/pJzNj7XFeC', "123-456-7890"),
   ('customer', 'Liam', 'Johnson', 'liam.johnson@example.com', 'hashed_password3', "123-456-7890");`,
 
   // Insert into Categories
