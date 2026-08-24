@@ -22,7 +22,7 @@ npm run dev
 
 ```
 
-Detta kommer att generera ett "start" projekt med lite basic kurser, behandlingar osv. Dessa kommer dock inte att ha några fungerande bilder. För att få åtkomst till admin panelen logga in med dummy användaren lucas@1.se.
+Detta kommer att generera ett "start" projekt med lite basic kurser, behandlingar osv. Dessa kommer dock inte att ha några fungerande bilder. För att få åtkomst till admin panelen logga in med dummy användaren "lucas@1.se" med lösenord "rune123".
 
 För att betalningarna skall fungera måste STRIPES lokala CLI vara installerad. Detta kan laddas ner [här](https://stripe.com/en-se).
 
